@@ -67,7 +67,6 @@ describe('App', () => {
       name: 'Rocketseat',
       email: 'oi@rocketseat.com.br',
     });
-
     expect(response.status).toBe(400);
   });
 
